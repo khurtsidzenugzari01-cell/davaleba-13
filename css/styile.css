@@ -1,0 +1,208 @@
+.div-1{
+    max-width: 779px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 66px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.div-3{
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.div-4{
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    color: aliceblue;
+    font-size: 16px;
+    max-width: 707px;
+    width: 100%;
+}
+.div-5{
+    max-width: 779px;
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-left: 20px;
+}
+.div-6{
+    font-size: 30px;
+    color: aliceblue;
+    position: absolute;
+    left: 40px;
+    bottom: 100px;
+}
+.div-7{
+    font-size: 16px;
+    color: aliceblue;
+    position: absolute;
+    left: 40px;
+    bottom: 50px;
+    max-width: 707px;
+    width: 100%;
+}
+.clas{
+    max-width: 380px;
+    height:280px;
+    width: 100%;
+    border: 1px solid #000000;
+}
+.class{
+    width: 100%;
+   max-width: 380px;
+}
+.class-1{
+    max-width: 380px;
+    width: 100%;
+    height:81px ;
+    margin-left: 20px;
+}
+.lore{
+   margin-top: 18px;
+    font-size: 24px;
+    color:#000000;
+}
+.sit{
+    max-width: 320px;
+    width: 100%;
+    margin-top: 10px;
+    font-size:16px;
+    color: #000000;
+}
+.sit-1{
+    margin-left: 20px;
+    display: flex;
+    column-gap: 20px;
+}
+.lorem-1{
+    margin-bottom: 18px;
+    margin-top: 20px;
+    max-width: 380px;
+    height: 280px;
+    width: 100%;
+    border: 1px solid #000000;
+}
+.lorem-2{
+    max-width: 380px;
+    height: 129px;
+    width: 100%;
+}
+.lorem{
+    font-size: 24px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.sit-am{
+    font-size: 16px;
+    color: #000000;
+    max-width: 320px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.ipsum{
+    max-width: 380px;
+    height: 270px;
+    width: 100%;
+    border: 1px solid black;
+}
+.lore-4{
+   max-width: 380px;
+   height: 129px;
+   width: 100%; 
+}
+.lore-3{
+    max-width: 320px;
+    width: 100%;
+}
+.dolor{
+    font-size: 24px;
+    color: #000000;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.sit-5{
+    margin-left: 20px;
+    margin-top: 20px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.conteiner{
+    display: flex;
+}
+.div-rigt{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+@media(min-width: 375px){
+    .conteiner{
+        flex-direction: column;
+        row-gap: 20px;
+        display: flex;
+    }
+    .d{
+        width: 100%;
+        max-width: 834px;
+    }
+    .div-1{
+        position: relative;
+    }
+    .lorem-1{
+        display: none;
+    }
+    .ipsum{
+        display: none;
+    }
+    .div-4{
+        font-size: 12px;
+        max-width: 340px;
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 180px;
+    }
+    .div-3{
+        margin-bottom: 30px;
+        max-width: 340px;
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 150px;
+    }
+    .div-7{
+        font-size: 12px;
+        max-width: 340px;
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 180px;
+    }
+    .div-6{
+         margin-bottom: 30px;
+        max-width: 340px;
+        width: 100%;
+        position: absolute;
+        left: 20px;
+        top: 150px;
+    }
+}
+@media(min-width: 400px){
+    .div-1{
+        position: relative;
+    }   
+    .lorem-1{
+        display: block;
+    }
+    .conteiner{
+        display: flex;
+    }
+    
+    
+}
