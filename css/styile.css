@@ -221,18 +221,12 @@
     .div-1{
         max-width: 700px;
         width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-
+       
     }
     .div-5{
         max-width: 700px;
         width: 100%;
-       justify-content: center;
-        align-items: center;
-        text-align: center;
+       
     }
     
 }
@@ -241,9 +235,7 @@
         display: block;
     }
     .conteiner{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       margin-left: 100px;
     }
     .fer-2{
         display: flex;
@@ -251,6 +243,7 @@
     .div-rigt{
         flex-direction: column;
     }
+
 }
 @media(min-width:1224){
    .conteiner{
